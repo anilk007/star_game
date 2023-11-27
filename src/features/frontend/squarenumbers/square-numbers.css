@@ -1,0 +1,21 @@
+
+.rectangle-numbers {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    
+}
+
+
+.col-numbers {
+    border: 1px solid black;
+    width: 75px;
+}
+
+.selected {
+    background-color: green;
+}
+
+.not-selected {
+    background-color: white;
+}

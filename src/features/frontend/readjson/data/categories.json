@@ -1,0 +1,22 @@
+[{
+		"id": 1,
+		"service_name": "non-grocerries",
+		"child-services": [{
+				"child-service-name": "fruits",
+				"route": "route_for_fruits"
+			},
+			{
+				"child-service-name": "vegetables",
+				"route": "route_for_vegetables"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"service_name": "grocerries",
+		"child-services": [{
+			"child-service-name": "Rice Festival",
+			"route": "route_for_rice_festival"
+		}]
+	}
+]
